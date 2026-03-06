@@ -261,7 +261,7 @@ Full reproduction + explanation: [`base_paper_implementation/`](base_paper_imple
 | Name | 
 | Kaarthikeya Lakshman Ganji 
 | Guditi Sai Kaushik 
-| P.V.S Sai Pranav 
+| Putrevu Venkata Sesha Sai Pranav 
 
 ---
 
