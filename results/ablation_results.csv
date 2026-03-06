@@ -1,0 +1,5 @@
+variant,architecture,features,accuracy,macro_f1,params,notes
+A,Structural GCN,66-dim structural only,0.8985,0.8319,8706,Baseline — no BERT
+B,GCN + BERT,835-dim (BERT + structural),0.9188,0.8673,264450,Adds semantic embeddings
+C,GCN + full CPG,835-dim (BERT + structural + CPG edges),0.9194,0.8691,264450,WINNER — best accuracy-efficiency tradeoff
+D,GAT + full CPG,835-dim with learned attention,0.9071,0.8398,574530,2.2x params — worse than GCN
